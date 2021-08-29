@@ -37,8 +37,9 @@
         <div class="column nav button pt-5" href="{{ route('contact') }}" style="border:2px solid black; background-color:#c0e749; height:4.5em; border-radius:0;">
             <a href="{{ route('contact') }}"><h1 class="title">Contact Us</h1></a>
         </div>
-        <div class="column nav button pt-5" href="" style="border:2px solid black; background-color:#8a31eb; height:4.5em; border-radius:0;">
-            <h1 class="title"></h1>
+        <div class="column nav pt-5" href="" style="border:2px solid black; background-color:#8a31eb; height:4.5em; border-radius:0;">
+            <div style="display: inline; border:2px solid black"><img src="twitter.png" alt="" width="30"></div>
+            <div style="display: inline; border:2px solid black"><img src="youtube.png" alt="" width="30"></div>
         </div>
     </div>
 
