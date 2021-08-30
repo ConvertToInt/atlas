@@ -23,8 +23,10 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
+Route::get('/services/{service:title}', [ServiceController::class, 'show'])->name('service_show');
 Route::get('/services/create', [ServiceController::class, 'create'])->name('service_create');
 Route::post('/services/create', [ServiceController::class, 'store'])->name('service_store');
+Route::delete('/services/delete/{service}', [ServiceController::class, 'delete'])->name('service_delete');
 
 Route::get('/contact', [ContactController::class, 'show'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact_store');

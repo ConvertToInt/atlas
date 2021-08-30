@@ -1,22 +1,24 @@
-<div class="column is-3">
-    <div class="card">
-        <div class="card-image">
-            <figure class="image is-4by3">
-            <img src="{{'public/' . $service->img}}" alt="Service image">
-            </figure>
-        </div>
-        <div class="card-content">
-            <div class="media">
-            <div class="media-content">
-                <p class="title is-4">{{$service->title}}</p>
+<div class="column is-4">
+    <a href="{{route('service_show', $service->title)}}">
+        <div class="card hoverable">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                <img src="{{asset('storage/' . $service->img)}}" alt="Service image">
+                </figure>
             </div>
-            </div>
+            <div class="card-content">
+                <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">{{$service->title}}</p>
+                </div>
+                </div>
 
-            <div class="content">
-            {{$service->brief}}
-            <br><br>
-            <time datetime="2016-1-1"><strong>{{$service->length}}</strong></time>
+                <div class="content">
+                {{$service->brief}}
+                <br><br>
+                <strong>{{$service->length}}</strong>
+                </div>
             </div>
         </div>
-    </div>
+    </a>
 </div>
