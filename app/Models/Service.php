@@ -11,8 +11,9 @@ class Service extends Model
 
     public $fillable = [
         'title',
-        'description',
+        'desc',
+        'brief',
         'length',
-        'image_path'
+        'img'
     ];
 }
