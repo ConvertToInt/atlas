@@ -18,15 +18,15 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
-Route::get('/services/{service:title}', [ServiceController::class, 'show'])->name('service_show');
 Route::get('/services/create', [ServiceController::class, 'create'])->name('service_create');
+Route::get('/service/{service:title}', [ServiceController::class, 'show'])->name('service_show');
 Route::post('/services/create', [ServiceController::class, 'store'])->name('service_store');
 Route::delete('/services/delete/{service}', [ServiceController::class, 'delete'])->name('service_delete');
 
-Route::get('/contact', [ContactController::class, 'show'])->name('contact');
+Route::get('/contact', [ContactController::class, 'create'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact_store');
