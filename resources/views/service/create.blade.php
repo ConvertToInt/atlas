@@ -75,7 +75,7 @@
           
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Create Service</button>
+              <button class="button is-secondary">Create Service</button>
             </div>
           </div>
 

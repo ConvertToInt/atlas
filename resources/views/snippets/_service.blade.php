@@ -1,9 +1,9 @@
 <div class="column is-4">
     <a href="{{route('service_show', $service->title)}}">
-        <div class="card hoverable">
+        <div class="card hoverable" id="{{$service->title}}">
             <div class="card-image">
                 <figure class="image is-4by3">
-                <img src="{{asset('storage/' . $service->img)}}" alt="Service image">
+                <img src="{{url('storage/' . $service->img)}}" alt="Service image">
                 </figure>
             </div>
             <div class="card-content">

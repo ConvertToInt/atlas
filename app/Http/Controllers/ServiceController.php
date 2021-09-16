@@ -38,7 +38,7 @@ class ServiceController extends Controller
         // ]);
 
         $service = new Service;
-        $service->img = $request->file('img')->store('storage/' . $service->title);
+        $service->img = $request->file('img')->store('services');
         $service->title = $request->title;
         $service->brief = $request->brief;
         $service->desc = $request->desc;
