@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="../css/mystyles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -56,7 +56,7 @@
         }
 
         footer{
-            background-color:#cfcfcf;
+            background-color:hsl(0, 0%, 92%);
             text-align: center;
             padding:20px 0 17px 0;
             font-weight:700;
@@ -152,20 +152,20 @@
     </style>
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
-    
+
 </head>
 <body>
 
     <nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom:1px solid hsl(0, 0%, 40%)">
         <div class="navbar-brand">
           <a class="navbar-item" href="{{route('home')}}">
-            <img src="logo.jpg" width="150" height="150">
+            <img src="../logo.jpg" width="150" height="150">
           </a>
       
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span class="burger" aria-hidden="true"></span>
+            <span class="burger" aria-hidden="true"></span>
+            <span class="burger" aria-hidden="true"></span>
           </a>
         </div>
       
@@ -175,7 +175,7 @@
               <span>Home</span>
             </a>
       
-            <a class="navbar-item font-sm spaced invertable sizeable overline underline orange" href="#about">
+            <a class="navbar-item font-sm spaced invertable sizeable overline underline orange" href="/#about">
               <span>About Us</span>
             </a>
 

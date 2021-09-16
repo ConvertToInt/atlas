@@ -43,7 +43,7 @@
     </div>
 </section>
 
-<section class="hero is-small" style="background-color:#e0e0e0; border-bottom:8px dotted hsl(54, 98%, 43%)" id="about">
+<section class="hero is-medium" style="background-color:#e0e0e0; border-bottom:8px dotted hsl(54, 98%, 43%)" id="about">
     <div class="hero-body">
         <p class="title has-text-centered" style="font-size:4.5em">
             Who are we?
