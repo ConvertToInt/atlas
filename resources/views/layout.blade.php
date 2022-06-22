@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/mystyles.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -159,7 +159,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation" style="border-bottom:1px solid hsl(0, 0%, 40%)">
         <div class="navbar-brand">
           <a class="navbar-item" href="{{route('home')}}">
-            <img src="../logo.jpg" width="150" height="150">
+            <img src="{{ asset('logo.jpg') }}" width="150" height="150">
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
