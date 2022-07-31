@@ -6,19 +6,9 @@
 
 @section('content')
 
-{{-- <div class="has-text-centered"><p><strong>COVID-19 RESPONSE<strong></p><br>
-  Due to COVID-19, we have had to delay some of our services being reintroduced which we provided previously. However, we are looking forward to bringing things back slowly and surely! Currently, we are not currently performing any scenes of the play at this moment in, however, this will change soon.
-  
-  We are also able to facilitate our other sessions online. We have done everything we can to ensure you still have a great training experience with us, and hope to have things running as normal soon.
-  
-  Since the workshops will be available online, we are happy to host sessions for international audiences, however, please do get in touch with us at [email address] so we can discuss any potential adaptations to suit your requirements.
-  
-  If you have any enquiries, please get in touch with us at autismatlasltd@gmail.com.
-</div> --}}
+<h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-4 pt-3 mb-6 mt-6 px-5">Want to book or have a question? Contact us below.</h1>
 
-<h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-3 pt-3 mb-6 mt-6">Want to book or have a question? Contact us below.</h1>
-
-<div class="columns is-centered mt-3 mb-6">
+<div class="columns is-centered mt-3 mb-6 px-5">
     <div class="column is-half">
 
       <!-- Alert User -->
@@ -162,5 +152,15 @@
 
         </form>
     </div>
+</div>
+
+<div class="has-text-centered mt-6 px-6 is-size-6 mb-6"><p><strong class="has-text-danger">COVID-19 RESPONSE<strong></p><br>
+  Due to COVID-19, we have had to delay some of our services being reintroduced which we provided previously. However, we are looking forward to bringing things back slowly and surely! Currently, we are not currently performing any scenes of the play at this moment in, however, this will change soon.
+  
+  We are also able to facilitate our other sessions online. We have done everything we can to ensure you still have a great training experience with us, and hope to have things running as normal soon.
+  
+  Since the workshops will be available online, we are happy to host sessions for international audiences, however, please do get in touch with us at [email address] so we can discuss any potential adaptations to suit your requirements.
+  
+  If you have any enquiries, please get in touch with us at autismatlasltd@gmail.com.
 </div>
 @endsection

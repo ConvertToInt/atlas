@@ -10318,34 +10318,8 @@ html {
   background-color: hsl(0deg, 0%, 92%);
 }
 
-.font-sm {
-  font-size: 1.85em;
-  padding-top: 4px;
-}
-
-.font-lg {
-  font-size: 2.25em;
-}
-
-.font-button {
-  display: flex;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  border: 3px solid hsl(0deg, 0%, 40%);
-  align-items: center;
-  justify-content: center;
-  color: hsl(0deg, 0%, 30%);
-}
-
-/* hide font-button at 1230px and below */
 .spaced {
   margin: 0 1rem 0 1rem;
-}
-
-.hoverable:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-  cursor: pointer;
 }
 
 footer {
@@ -10409,6 +10383,10 @@ footer {
   background: #c0e749;
 }
 
+.blue span::before, .blue span::after {
+  background: #2160d5;
+}
+
 .purple span::before, .purple span::after {
   background: #8a31eb;
 }
@@ -10425,5 +10403,67 @@ footer {
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-brand img {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .overline span::before {
+    content: "";
+    height: 7px;
+    border-radius: 20px;
+    display: none;
+    margin-bottom: 9px;
+  }
+  .nav {
+    text-align: center;
+  }
+}
+.blank-logo {
+  height: 40em;
+  width: 40em;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .blank-logo {
+    height: 35em;
+    width: 35em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blank-logo {
+    height: 25em;
+    width: 25em;
+    margin-top: 1em;
+  }
+  #hero {
+    height: 70vh;
+  }
+  #hero-txt {
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 440px) {
+  #hero {
+    height: 60vh;
+  }
+  #hero-txt {
+    margin-top: 2.5em;
+  }
+  .blank-logo {
+    height: 20em;
+    width: 20em;
+  }
 }
 

@@ -6,10 +6,10 @@
 
 @section('content')
 
-<h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-3 pt-3 mb-6 mt-6"><em>Autism training from a unique but necessary perspective.</em></h1>
+<h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-3 pt-3 mb-6 mt-6 px-5"><em>Autism training from a unique but necessary perspective.</em></h1>
 
 <div class="columns is-centered">
-    <div class="column is-8"  style="text-align:center">
+    <div class="column is-8 px-5"  style="text-align:center">
 
         <p>We offer bespoke training workshops to audiences of all backgrounds - from teachers, to students, to employees, to employers, in all sectors.</p><br>
             
@@ -21,11 +21,11 @@
             
         <p> Once we are informed of who will be attending our sessions (whatever profession it may be), we will do our best to highlight specific strategies and scenarios that will be relevant to the attendees.<p><br>
 
-                <h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-3 pt-3 mb-6 mt-6">Our Services</h1>
-            </div>
+        <h1 class="title has-text-centered has-text-weight-bold has-text-grey-darker is-size-3 pt-3 mt-6">Our Services</h1>
+    </div>
 </div>
 
-<div class="columns is-centered mt-6 mb-6">
+<div class="columns is-centered mt-6 mb-6 px-5">
     <div class="column is-8">
         <div class="columns is-multiline">
             @foreach($services as $service)
@@ -51,15 +51,22 @@
     </div>
   </div>
 
+  <h1 class="mb-6 mt-6 px-5 has-text-centered is-size-5"><a href="{{route('contact')}}" style="color:#d53021 !important; border-bottom:3px solid #d53021; padding-bottom:5px;">To book a service - follow this link to our contact page.</a></h1>
+
+
 <div class="mt-6 mb-6 has-text-centered">
     <a class="button" href="{{route('service_create')}}">Add new service</a>
 </div>
 
+<script>
+    $(document).ready(function() {
 
-{{-- <script>
-    $(document.body).on("click", ".has-modal", function(event) {
-        title = (event.target.id);
-        console.log(title);
-    }); 
-</script> --}}
+        $('.service-desc').hide();
+
+        $(".service").click(function(event) {
+            $("#" + event.target.id + "-desc").toggle();
+        });
+});
+</script>
+
 @endsection

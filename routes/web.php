@@ -22,9 +22,13 @@ Route::get('/team', function () {
     return view('team');
 })->name('team');
 
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
+
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
 Route::get('/services/create', [ServiceController::class, 'create'])->name('service_create');
-Route::get('/service/{service:title}', [ServiceController::class, 'show'])->name('service_show');
+// Route::get('/service/{service:title}', [ServiceController::class, 'show'])->name('service_show');
 Route::post('/services/create', [ServiceController::class, 'store'])->name('service_store');
 Route::delete('/services/delete/{service}', [ServiceController::class, 'delete'])->name('service_delete');
 
