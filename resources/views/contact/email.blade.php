@@ -1,5 +1,5 @@
 <h2>Hello Atlas Admin,</h2>
-<p>You have recieved a new email from Atlas.com</p><br>
+<p>You have recieved a new email from autismatlas.co.uk</p><br>
 
 <p>Contact information:</p>
 

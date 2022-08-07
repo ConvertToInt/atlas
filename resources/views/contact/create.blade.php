@@ -71,7 +71,7 @@
             <label class="label">Subject <span style="color:red !important">*</span></label>
             <div class="control">
               <div class="select @error('subject') is-danger @enderror">
-                <select name="subject" required>
+                <select name="subject" required id="subject-select">
                   <option>Select a subject</option>
                   <option>Question</option>
                   <option>Training Booking</option>
@@ -83,10 +83,9 @@
             </div>
           </div>
 
-          {{-- <fieldset disabled> --}}
-
+          <div class="optional">
             <div class="field">
-              <label class="label">Size</label>
+              <label class="label">Size <span style="color:red !important">*</span></label>
               <div class="control has-icons-left">
                 <input class="input @error('size') is-danger @enderror" type="number" placeholder="How many people is the training for..." name="size" min="1" max="99">
                 <span class="icon is-small is-left">
@@ -99,7 +98,7 @@
             </div>
             
             <div class="field">
-              <label class="label">Workshop selection</span></label>
+              <label class="label">Workshop selection <span style="color:red !important">*</span></span></label>
               <div class="control">
                 <div class="select @error('service') is-danger @enderror">
                   <select name="service">
@@ -120,7 +119,7 @@
             </div>
 
             <div class="field">
-              <label class="label">Date preference</label>
+              <label class="label">Date preference <span style="color:red !important">*</label>
               <div class="control">
                 <input class="input @error('date') is-danger @enderror" type="date" name="date">
                 @error('date')
@@ -128,8 +127,7 @@
                 @enderror
               </div>
             </div>
-          
-          {{-- </fieldset> --}}
+          </div>
 
           <div class="field">
             <label class="label">Message <span style="color:red !important">*</span></label>
@@ -163,4 +161,17 @@
   
   If you have any enquiries, please get in touch with us at autismatlasltd@gmail.com.
 </div>
+
+<script>
+  $(document).ready(function () {
+    $('#subject-select').change( function() {
+      if($(this).val() == 'Training Booking'){
+        $(".optional").show();
+      } else {
+        $(".optional").hide();
+      }
+    });
+  });
+</script>
+
 @endsection

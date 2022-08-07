@@ -17,7 +17,7 @@
                 </div>
                 <div class="column has-text-weight-bold has-text-grey-darker">
                     <h1 class="title is-size-3 pt-3 mt-4">Kira McCarthy</h1>
-                    <h1 class="title is-size-5">Director &middot; Practitioner &middot; Funny</h1>
+                    <h1 class="title is-size-5">Co-Founder &middot; Trainer &middot; Funny</h1>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="column has-text-weight-bold has-text-grey-darker">
                     <h1 class="title is-size-3 pt-3 mt-4">Kira McCarthy</h1>
-                    <h1 class="title is-size-5">Director &middot; Practitioner &middot; Funny</h1>
+                    <h1 class="title is-size-5">Co-Founder &middot; Trainer &middot; Funny</h1>
                 </div>
             </div>
         </div>
@@ -43,43 +43,7 @@
                 </div>
                 <div class="column has-text-weight-bold has-text-grey-darker">
                     <h1 class="title is-size-3 pt-3 mt-4">Kira McCarthy</h1>
-                    <h1 class="title is-size-5">Director &middot; Practitioner &middot; Funny</h1>
-                </div>
-            </div>
-        </div>
-        <div class="box has-background-white-bis">
-            <div class="columns">
-                <div class="column is-2 is-left is-inline-block">
-                    <figure class="image is-128x128">
-                        <img src="{{ asset('blank_pp.png')}}">
-                      </figure>
-                </div>
-                <div class="column has-text-weight-bold has-text-grey-darker">
-                    <h1 class="title is-size-3 pt-3 mb-6 mt-6">John</h1>
-                </div>
-            </div>
-        </div>
-        <div class="box has-background-white-bis">
-            <div class="columns">
-                <div class="column is-2 is-left is-inline-block">
-                    <figure class="image is-128x128">
-                        <img src="{{ asset('blank_pp.png')}}">
-                      </figure>
-                </div>
-                <div class="column has-text-weight-bold has-text-grey-darker">
-                    <h1 class="title is-size-3 pt-3 mb-6 mt-6">Sean</h1>
-                </div>
-            </div>
-        </div>
-        <div class="box has-background-white-bis">
-            <div class="columns">
-                <div class="column is-2 is-left is-inline-block">
-                    <figure class="image is-128x128">
-                        <img src="{{ asset('blank_pp.png')}}">
-                      </figure>
-                </div>
-                <div class="column has-text-weight-bold has-text-grey-darker">
-                    <h1 class="title is-size-3 pt-3 mb-6 mt-6">Amy</h1>
+                    <h1 class="title is-size-5">Co-Founder &middot; Trainer &middot; Funny</h1>
                 </div>
             </div>
         </div>

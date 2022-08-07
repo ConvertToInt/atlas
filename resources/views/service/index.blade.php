@@ -54,9 +54,9 @@
   <h1 class="mb-6 mt-6 px-5 has-text-centered is-size-5"><a href="{{route('contact')}}" style="color:#d53021 !important; border-bottom:3px solid #d53021; padding-bottom:5px;">To book a service - follow this link to our contact page.</a></h1>
 
 
-<div class="mt-6 mb-6 has-text-centered">
-    <a class="button" href="{{route('service_create')}}">Add new service</a>
-</div>
+<!--<div class="mt-6 mb-6 has-text-centered">-->
+<!--    <a class="button" href="/service_create_route">Add new service</a>-->
+<!--</div>-->
 
 <script>
     $(document).ready(function() {

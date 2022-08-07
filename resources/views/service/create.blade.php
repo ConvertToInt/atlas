@@ -61,6 +61,8 @@
                   <option>3-4 Hours</option>
                   <option>1 Day</option>
                   <option>2 Days</option>
+                  <option>Varies</option>
+                  <option>Ongoing</option>
                 </select>
               </div>
             </div>
