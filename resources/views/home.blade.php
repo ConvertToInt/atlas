@@ -24,9 +24,10 @@
         <div class="columns">
             <div class="column">
                 <p class="title has-text-centered is-size-4-mobile is-size-4-tablet is-size-3-desktop">
-                    Autism affects many people across communities around the country, however, many people on the spectrum 
-                    continue to feel misunderstood and that their needs are not being met. We want to change things by 
-                    sharing our own experiences and knowledge so that autistic people and their families feel safe, valued, and listened to.
+                    Autism affects many people across communities around the country. However, many autistic
+                    people continue to feel misunderstood, alongside their needs not being met. We want to change
+                    things by sharing our own experiences and knowledge so that autistic people and their families
+                    feel safe, valued and listened to.
                 </p>
             </div>
             <div class="column">
@@ -50,8 +51,9 @@
         <div class="columns has-text-centered">
             <div class="column">
                 <p class="title is-size-4-mobile is-size-5-tablet is-size-4-desktop">
-                    Autism ATLAS is an autism-led social enterprise, with a training team who want to improve the lives of autistic people through sharing 
-                    our experiences, alongside current research and guidance for good autism practice, to give people a more in-depth understanding of autism.
+                    Autism ATLAS is an autism-led social enterprise with a training team who want to improve the
+                    lives of autistic people through sharing our personal experiences, alongside current research and
+                    guidance for good autism practice, to give people a more in-depth understanding of autism.
                 </p>
             </div>
             <div class="column pt-6 pb-6">
@@ -59,17 +61,13 @@
             </div>
             <div class="column">
                 <p class="title is-size-4-mobile is-size-5-tablet is-size-4-desktop">
-                    We all have different experiences, different educational backgrounds, different ways our autism affects us. But we all share one thing 
+                    We all have different diagnoses (whether it’s autism or Asperger’s Syndrome), different educational backgrounds, 
+                    different diagnosis experiences, different ways our autism affects us, different lives. But we all share one thing 
                     in common: we want to share our stories with you, so that you might be able to make a genuine, lasting difference for 
-                    someone with autism.
+                    someone with autism in your life.
                 </p>
             </div>
         </div>
-        
-        {{-- <p class="title has-text-centered font-sm">
-            We all have different diagnoses (whether it’s autism or Asperger’s Syndrome), different educational backgrounds, different diagnosis experiences, 
-            different ways our autism affects us,  different lives. But we all share one thing in common: we want to share our stories with you, so that you might be able to make a genuine, lasting difference for someone with autism in your life.
-        </p> --}}
         
     </div>
 </section>
@@ -82,8 +80,9 @@
             </div>
             <div class="column is-8">
                 <p class="title has-text-centered is-size-4-mobile is-size-4-tablet is-size-3-desktop">
-                    However, it’s not just about telling people about autism (as much as we enjoy talking about it!) It's about collaborating with
-                     members of communities and working together to help people get the knowledge they need to help develop their good autism practice. 
+                    However, it’s not just about telling people about autism (as much as we enjoy talking about it!). 
+                    It's about collaborating with members of communities and working together to help people get the knowledge 
+                    they need to help develop their good autism practice.
                 </p>
             </div>
         </div>

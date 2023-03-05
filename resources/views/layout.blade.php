@@ -79,7 +79,7 @@
                 <br> 
             </div>
             <div class="column is-4 pt-4">
-                <a href="https://www.facebook.com/pg/autismATLAS/">
+                <a href="https://www.facebook.com/autismATLAS">
                     <figure class="image is-96x96 is-inline-block">
                       <img class="is-rounded" src="{{ asset('facebook.png')}}">
                     </figure>
@@ -89,9 +89,9 @@
                       <img class="is-rounded" src="{{ asset('youtube.png')}}">
                     </figure>
                   </a>
-                  <a href="https://www.linkedin.com/company/autism-atlas-ltd/">
+                  <a href="https://www.instagram.com/autismatlas/?hl=en">
                     <figure class="image is-96x96 is-inline-block">
-                      <img class="is-rounded" src="{{ asset('linkedin.png')}}">
+                      <img class="is-rounded" src="{{ asset('insta.png')}}">
                     </figure>
                   </a>
             </div>

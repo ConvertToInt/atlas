@@ -152,16 +152,6 @@
     </div>
 </div>
 
-<div class="has-text-centered mt-6 px-6 is-size-6 mb-6"><p><strong class="has-text-danger">COVID-19 RESPONSE<strong></p><br>
-  Due to COVID-19, we have had to delay some of our services being reintroduced which we provided previously. However, we are looking forward to bringing things back slowly and surely! Currently, we are not currently performing any scenes of the play at this moment in, however, this will change soon.
-  
-  We are also able to facilitate our other sessions online. We have done everything we can to ensure you still have a great training experience with us, and hope to have things running as normal soon.
-  
-  Since the workshops will be available online, we are happy to host sessions for international audiences, however, please do get in touch with us at [email address] so we can discuss any potential adaptations to suit your requirements.
-  
-  If you have any enquiries, please get in touch with us at autismatlasltd@gmail.com.
-</div>
-
 <script>
   $(document).ready(function () {
     $('#subject-select').change( function() {
